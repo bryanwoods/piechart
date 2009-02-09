@@ -25,7 +25,6 @@ class ChartsController < ApplicationController
   # GET /charts/new.xml
   def new
     @chart = Chart.new
-    3.times { @chart.things.build }
 
     respond_to do |format|
       format.html # new.html.erb
@@ -47,6 +46,7 @@ class ChartsController < ApplicationController
       if @chart.save
         flash[:notice] = 'Chart was successfully created.'
         format.html { redirect_to(@chart) }
+        format.js
         format.xml  { render :xml => @chart, :status => :created, :location => @chart }
       else
         format.html { render :action => "new" }

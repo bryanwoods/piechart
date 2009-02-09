@@ -1,8 +1,1 @@
-<div class="task">
-<% fields_for "chart[thing_attributes][]", thing do |thing_form| %>
-<p>
-Thing: <%= thing_form.text_field :slice %>
-<%= link_to_function "remove", "this.up('.task').remove()" %>
-</p>
-<% end %>
-</div>
+<img src="http://chart.apis.google.com/chart?&chs=750x300&chd=t:<%= @chart.thing1amount %>,<%= @chart.thing2amount %>,<%= @chart.thing3amount %>,<%= @chart.thing4amount %>,<%= @chart.thing5amount %>&cht=p3&chtt=<%= @chart.title %>&chl=<%= @chart.thing1 %>|<%= @chart.thing2 %>|<%= @chart.thing3 %>|<%= @chart.thing4 %>|<%= @chart.thing5 %>" />

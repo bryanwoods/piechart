@@ -8199,3 +8199,332 @@ Processing ChartsController#index (for 127.0.0.1 at 2009-02-09 17:54:48) [GET]
 Rendering template within layouts/charts
 Rendering charts/index
 Completed in 19ms (View: 13, DB: 1) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 17:58:50) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 17:58:54) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"", "thing1amount"=>"", "thing2amount"=>"", "thing3amount"=>"", "thing1"=>"", "thing2"=>"", "thing3"=>"", "thing4"=>""}}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-09 22:58:54', '', '', '', '', '', '', '', '', '', '', '2009-02-09 22:58:54')[0m
+Redirected to #<Chart:0x321b0e4>
+Completed in 14ms (DB: 0) | 302 Found [http://localhost/charts]
+
+
+Processing ChartsController#show (for 127.0.0.1 at 2009-02-09 17:58:54) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mChart Load (0.3ms)[0m   [0mSELECT * FROM "charts" WHERE ("charts"."id" = 8) [0m
+Rendering template within layouts/charts
+Rendering charts/show
+Completed in 95ms (View: 88, DB: 0) | 200 OK [http://localhost/charts/8]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 17:58:57) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 17:59:17) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"A Comparison", "thing1amount"=>"50", "thing2amount"=>"50", "thing3amount"=>"", "thing1"=>"Apples", "thing2"=>"Oranges", "thing3"=>"", "thing4"=>""}}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-09 22:59:17', '', 'A Comparison', '', '50', '50', 'Apples', '', 'Oranges', '', '', '2009-02-09 22:59:17')[0m
+Redirected to #<Chart:0x36e195c>
+Completed in 13ms (DB: 0) | 302 Found [http://localhost/charts]
+
+
+Processing ChartsController#show (for 127.0.0.1 at 2009-02-09 17:59:17) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mChart Load (0.3ms)[0m   [0mSELECT * FROM "charts" WHERE ("charts"."id" = 9) [0m
+Rendering template within layouts/charts
+Rendering charts/show
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/charts/9]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 17:59:21) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 17:59:32) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"Smackles", "thing4amount"=>"50", "thing5amount"=>"50", "title"=>"A Comparison", "thing1amount"=>"50", "thing2amount"=>"50", "thing3amount"=>"50", "thing1"=>"Apples", "thing2"=>"Oranges", "thing3"=>"Grackles", "thing4"=>"Mackles"}}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('Smackles', '2009-02-09 22:59:32', '50', 'A Comparison', '50', '50', '50', 'Apples', '50', 'Oranges', 'Grackles', 'Mackles', '2009-02-09 22:59:32')[0m
+Redirected to #<Chart:0x3374be8>
+Completed in 14ms (DB: 0) | 302 Found [http://localhost/charts]
+
+
+Processing ChartsController#show (for 127.0.0.1 at 2009-02-09 17:59:32) [GET]
+  Parameters: {"id"=>"10"}
+  [4;35;1mChart Load (0.3ms)[0m   [0mSELECT * FROM "charts" WHERE ("charts"."id" = 10) [0m
+Rendering template within layouts/charts
+Rendering charts/show
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/charts/10]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 17:59:45) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 18:03:16) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Completed in 109ms (View: 103, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 18:03:44) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"Pear", "thing4amount"=>"7", "thing5amount"=>"1", "title"=>"Fruit", "thing1amount"=>"2", "thing2amount"=>"3", "thing3amount"=>"8", "thing1"=>"Apple", "thing2"=>"Orange", "thing3"=>"Blueberry", "thing4"=>"Blackberry"}}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('Pear', '2009-02-09 23:03:44', '7', 'Fruit', '1', '2', '3', 'Apple', '8', 'Orange', 'Blueberry', 'Blackberry', '2009-02-09 23:03:44')[0m
+Redirected to #<Chart:0x38be284>
+Completed in 14ms (DB: 0) | 302 Found [http://localhost/charts]
+
+
+Processing ChartsController#show (for 127.0.0.1 at 2009-02-09 18:03:44) [GET]
+  Parameters: {"id"=>"11"}
+  [4;35;1mChart Load (0.3ms)[0m   [0mSELECT * FROM "charts" WHERE ("charts"."id" = 11) [0m
+Rendering template within layouts/charts
+Rendering charts/show
+Completed in 29ms (View: 22, DB: 0) | 200 OK [http://localhost/charts/11]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 18:09:30) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.5ms)
+Completed in 77ms (View: 71, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 18:10:04) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"TEST", "thing4amount"=>"4", "thing5amount"=>"5", "title"=>"Test", "thing1amount"=>"1", "thing2amount"=>"2", "thing3amount"=>"3", "thing1"=>"Test", "thing2"=>"Test", "thing3"=>"Test", "thing4"=>"Test"}}
+  [4;36;1mChart Create (0.6ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('TEST', '2009-02-09 23:10:04', '4', 'Test', '5', '1', '2', 'Test', '3', 'Test', 'Test', 'Test', '2009-02-09 23:10:04')[0m
+Redirected to #<Chart:0x3465cf0>
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/charts]
+
+
+Processing ChartsController#show (for 127.0.0.1 at 2009-02-09 18:10:04) [GET]
+  Parameters: {"id"=>"12"}
+  [4;35;1mChart Load (0.3ms)[0m   [0mSELECT * FROM "charts" WHERE ("charts"."id" = 12) [0m
+Rendering template within layouts/charts
+Rendering charts/show
+Completed in 59ms (View: 53, DB: 0) | 200 OK [http://localhost/charts/12]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 18:16:25) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 18:16:28) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"", "thing1amount"=>"", "thing2amount"=>"", "thing3amount"=>"", "thing1"=>"", "thing2"=>"", "thing3"=>"", "thing4"=>""}}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-09 23:16:28', '', '', '', '', '', '', '', '', '', '', '2009-02-09 23:16:28')[0m
+Rendering charts/create
+
+
+ActionView::TemplateError (undefined local variable or method `partial' for #<ActionView::Base:0x3273e88>) on line #1 of app/views/charts/create.rjs:
+1: page.insert_html :bottom, :thing, partial => 'thing', :object => @chart
+
+    app/views/charts/create.rjs:1:in `__instance_exec0'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/object/extending.rb:74:in `send'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/object/extending.rb:74:in `instance_exec'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/prototype_helper.rb:587:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/capture_helper.rb:129:in `with_output_buffer'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/prototype_helper.rb:586:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/prototype_helper.rb:1038:in `new'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/helpers/prototype_helper.rb:1038:in `update_page'
+    app/views/charts/create.rjs:1
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/charts_controller.rb:45:in `create'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (43.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (1.2ms)
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 18:17:04) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 18:17:06) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"", "thing1amount"=>"", "thing2amount"=>"", "thing3amount"=>"", "thing1"=>"", "thing2"=>"", "thing3"=>"", "thing4"=>""}}
+  [4;35;1mChart Create (0.6ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-09 23:17:06', '', '', '', '', '', '', '', '', '', '', '2009-02-09 23:17:06')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 4, DB: 1) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 18:17:34) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"Test", "thing4amount"=>"4", "thing5amount"=>"5", "title"=>"Testing", "thing1amount"=>"1", "thing2amount"=>"2", "thing3amount"=>"3", "thing1"=>"Test", "thing2"=>"Test", "thing3"=>"Test", "thing4"=>"Test"}}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('Test', '2009-02-09 23:17:34', '4', 'Testing', '5', '1', '2', 'Test', '3', 'Test', 'Test', 'Test', '2009-02-09 23:17:34')[0m
+Rendering charts/create
+Rendered charts/_thing (0.4ms)
+Completed in 18ms (View: 4, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 18:18:23) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.3ms)
+Completed in 33ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 18:18:42) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"JORGE", "thing4amount"=>"4", "thing5amount"=>"5", "title"=>"JORGE", "thing1amount"=>"1", "thing2amount"=>"2", "thing3amount"=>"3", "thing1"=>"JORGE", "thing2"=>"JORGE", "thing3"=>"JORGE", "thing4"=>"JORGE"}}
+  [4;35;1mChart Create (60.8ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('JORGE', '2009-02-09 23:18:42', '4', 'JORGE', '5', '1', '2', 'JORGE', '3', 'JORGE', 'JORGE', 'JORGE', '2009-02-09 23:18:42')[0m
+Rendering charts/create
+Rendered charts/_thing (0.4ms)
+Completed in 78ms (View: 4, DB: 61) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 18:19:13) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 18:19:46) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"DEAD", "thing4amount"=>"21", "thing5amount"=>"40", "title"=>"DRIVING THAT TRAIN", "thing1amount"=>"32", "thing2amount"=>"23", "thing3amount"=>"23", "thing1"=>"HIGH", "thing2"=>"ON", "thing3"=>"COCAINE", "thing4"=>"GRATEFUL"}}
+  [4;36;1mChart Create (0.5ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('DEAD', '2009-02-09 23:19:46', '21', 'DRIVING THAT TRAIN', '40', '32', '23', 'HIGH', '23', 'ON', 'COCAINE', 'GRATEFUL', '2009-02-09 23:19:46')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 55ms (View: 18, DB: 1) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 18:20:36) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 18:21:01) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"Cherry Py", "thing4amount"=>"7", "thing5amount"=>"2", "title"=>"Pie Chart", "thing1amount"=>"1", "thing2amount"=>"2", "thing3amount"=>"3", "thing1"=>"Apple Pie", "thing2"=>"Blueberry Pie", "thing3"=>"Blackberry Pie", "thing4"=>"Chocolate Pie"}}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('Cherry Py', '2009-02-09 23:21:01', '7', 'Pie Chart', '2', '1', '2', 'Apple Pie', '3', 'Blueberry Pie', 'Blackberry Pie', 'Chocolate Pie', '2009-02-09 23:21:01')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 4, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 18:22:14) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"Pie Chart", "thing1amount"=>"1", "thing2amount"=>"2", "thing3amount"=>"3", "thing1"=>"Apple Pie", "thing2"=>"Blueberry Pie", "thing3"=>"Blackberry Pie", "thing4"=>""}}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-09 23:22:15', '', 'Pie Chart', '', '1', '2', 'Apple Pie', '3', 'Blueberry Pie', 'Blackberry Pie', '', '2009-02-09 23:22:15')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 115ms (View: 4, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 18:22:30) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-09 18:23:16) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"5ec078a058fb5f5ecb2d0537c1a884b34f8d43ab", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"", "thing1amount"=>"", "thing2amount"=>"", "thing3amount"=>"", "thing1"=>"", "thing2"=>"", "thing3"=>"", "thing4"=>""}}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-09 23:23:16', '', '', '', '', '', '', '', '', '', '', '2009-02-09 23:23:16')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 4, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 18:23:23) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 18:23:27) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-09 18:25:26) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.3ms)
+Completed in 80ms (View: 15, DB: 0) | 200 OK [http://localhost/]

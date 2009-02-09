@@ -1,0 +1,1 @@
+page.insert_html :top, :thing, :partial => 'thing', :object => @chart
