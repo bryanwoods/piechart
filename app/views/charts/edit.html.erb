@@ -1,0 +1,36 @@
+<h1>Editing chart</h1>
+
+<% form_for(@chart) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :thing1 %><br />
+    <%= f.text_field :thing1 %>
+  </p>
+  <p>
+    <%= f.label :thing2 %><br />
+    <%= f.text_field :thing2 %>
+  </p>
+  <p>
+    <%= f.label :thing3 %><br />
+    <%= f.text_field :thing3 %>
+  </p>
+  <p>
+    <%= f.label :thing4 %><br />
+    <%= f.text_field :thing4 %>
+  </p>
+  <p>
+    <%= f.label :thing5 %><br />
+    <%= f.text_field :thing5 %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @chart %> |
+<%= link_to 'Back', charts_path %>

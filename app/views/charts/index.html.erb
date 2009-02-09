@@ -1,0 +1,30 @@
+<h1>Listing charts</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Thing1</th>
+    <th>Thing2</th>
+    <th>Thing3</th>
+    <th>Thing4</th>
+    <th>Thing5</th>
+  </tr>
+
+<% for chart in @charts %>
+  <tr>
+    <td><%=h chart.title %></td>
+    <td><%=h chart.thing1 %></td>
+    <td><%=h chart.thing2 %></td>
+    <td><%=h chart.thing3 %></td>
+    <td><%=h chart.thing4 %></td>
+    <td><%=h chart.thing5 %></td>
+    <td><%= link_to 'Show', chart %></td>
+    <td><%= link_to 'Edit', edit_chart_path(chart) %></td>
+    <td><%= link_to 'Destroy', chart, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New chart', new_chart_path %>

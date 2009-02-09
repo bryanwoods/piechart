@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyString
+  thing1: MyString
+  thing2: MyString
+  thing3: MyString
+  thing4: MyString
+  thing5: MyString
+
+two:
+  title: MyString
+  thing1: MyString
+  thing2: MyString
+  thing3: MyString
+  thing4: MyString
+  thing5: MyString

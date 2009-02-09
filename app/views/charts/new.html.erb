@@ -1,0 +1,20 @@
+<h1>MAKE A FUCKIN' PIE CHART</h1>
+
+<% form_for(@chart) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :chart_title %>
+    <%= f.text_field :title %>
+  </p>
+ <br />
+  <div id="things">
+  <%= render :partial => 'thing', :collection => @chart.things %>
+  </div>
+  <%= add_thing_link "Add a thing" %>
+  <p>
+    <%= f.submit "MAKE A FUCKIN' PIE CHART" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', charts_path %>

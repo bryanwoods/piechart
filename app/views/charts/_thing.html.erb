@@ -1,0 +1,8 @@
+<div class="task">
+<% fields_for "chart[thing_attributes][]", thing do |thing_form| %>
+<p>
+Thing: <%= thing_form.text_field :slice %>
+<%= link_to_function "remove", "this.up('.task').remove()" %>
+</p>
+<% end %>
+</div>
