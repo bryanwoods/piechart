@@ -10,35 +10,44 @@
     <%= f.text_field :title %>
   </p>
   <p>
-    <%= f.label :first_thing_to_graph %><br />
+    <%= f.label :thing_to_chart %><br />
     <%= f.text_field :thing1 %>
 	<%= f.label :how_many? %>
-	<%= f.text_field :thing1amount %>
-  </p>
+	<%= f.text_field :thing1amount %> 
+  </p>	
   <p>
-    <%= f.label :second_thing_to_graph %><br />
+    <%= f.label :another_thing_to_chart %><br />
     <%= f.text_field :thing2 %>
 	<%= f.label :how_many? %>
 	<%= f.text_field :thing2amount %>
+	<%= link_to_remote "Add another thing?", :url => { :action => 'create' } %>
   </p>
   <p>
-    <%= f.label :third_thing_to_graph %><br />
+    <div id="thingsmore" style="display:none">
+    <%= f.label :another_thing_to_chart %><br />
     <%= f.text_field :thing3 %>
 	<%= f.label :how_many? %>
 	<%= f.text_field :thing3amount %>
+	<%= link_to_remote "Add another thing?", :url => { :action => 'create2' } %>
   </p>
+    </div>
+    <div id="thingsmore2" style="display:none">
   <p>
-    <%= f.label :fourth_thing_to_graph %><br />
+    <%= f.label :another_thing_to_chart %><br />
     <%= f.text_field :thing4 %>
 	<%= f.label :how_many? %>
 	<%= f.text_field :thing4amount %>
+	<%= link_to_remote "Add another thing?", :url => { :action => 'create3' } %>
   </p>
+   </div>
+	<div id="thingsmore3" style="display:none">
   <p>
-    <%= f.label :fifth_thing_to_graph %><br />
+    <%= f.label :another_thing_to_chart %><br />
     <%= f.text_field :thing5 %>
 	<%= f.label :how_many? %>
 	<%= f.text_field :thing5amount %>
   </p>
+	</div>
   <p>
     <%= f.submit "MAKE A FUCKIN' PIE CHART" %><%= image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' %>
   </p>

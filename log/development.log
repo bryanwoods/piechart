@@ -15074,3 +15074,879 @@ Rendering template within layouts/charts
 Rendering charts/new
 Rendered charts/_thing (0.2ms)
 Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:47:49) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:49:12) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:52:13) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:52:15) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.6ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:52:15', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:52:15')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 20ms (View: 3, DB: 1) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:52:52) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 104ms (View: 98, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:52:54) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:52:54', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:52:54')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 18ms (View: 2, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:52:58) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:52:59) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:53:01) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:53:01', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:53:01')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 14ms (View: 2, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:54:52) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 41ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:54:54) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:54:56) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:54:56', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:54:56')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 92ms (View: 79, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:54:57) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:54:57', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:54:57')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 18ms (View: 4, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:54:58) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:54:58', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:54:58')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:54:59) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.6ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:54:59', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:54:59')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 18ms (View: 4, DB: 1) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:55:00) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:55:00', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:55:00')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:55:01) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:55:01', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:55:01')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:55:01) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:55:01', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:55:01')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 19ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:55:02) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:55:02', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:55:02')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:55:03) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:55:03', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:55:03')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:55:04) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:55:04', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:55:04')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:55:07) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:55:07', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:55:07')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:55:08) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:55:08', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:55:08')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 109ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:55:09) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:55:09', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:55:09')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:55:11) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:55:11', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:55:11')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:56:31) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:56:34) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:56:34', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:56:34')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:56:50) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:56:52) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:56:52', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:56:52')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:56:53) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:56:53', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:56:53')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:56:54) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:56:54', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:56:54')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:56:54) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:56:55', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:56:55')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 110ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:56:55) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:56:55', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:56:55')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:56:56) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:56:56', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:56:56')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 18ms (View: 4, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:56:59) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:56:59', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:56:59')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 2, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:02) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:02', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:02')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:03) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:03', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:03')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 14ms (View: 2, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:03) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:03', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:03')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:04) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:04', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:04')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:05) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:05', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:05')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 14ms (View: 2, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:05) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:05', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:05')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 115ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:06) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:06', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:06')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 2, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:09) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:09', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:09')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:10) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:10', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:10')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:11) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:11', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:11')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:14) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:14', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:14')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:45) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.5ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:45', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:45')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 14ms (View: 2, DB: 1) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:46) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:46', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:46')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:57:47) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:57:47', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:57:47')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:58:02) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 210ms (View: 204, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:58:05) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:58:05', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:58:05')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:58:06) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:58:06', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:58:06')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:58:07) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:58:07', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:58:07')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:58:09) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:58:34) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:58:37) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:58:37', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:58:37')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 14ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:58:41) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:58:43) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:58:43', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:58:43')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:58:45) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:58:45', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:58:45')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:58:46) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:58:46', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:58:46')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:58:47) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:58:47', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:58:47')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:58:47) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:58:47', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:58:47')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:58:48) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:58:48', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:58:48')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:58:49) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:58:49', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:58:49')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 14ms (View: 2, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:58:50) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:58:50', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:58:50')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 2, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 12:59:36) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:59:37) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:59:37', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:59:37')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:59:38) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:59:38', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:59:38')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 2, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:59:39) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:59:39', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:59:39')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:59:39) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.5ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:59:39', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:59:39')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:59:40) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:59:40', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:59:40')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:59:41) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:59:41', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:59:41')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 4, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:59:41) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:59:41', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:59:41')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 2, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:59:42) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:59:42', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:59:42')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:59:43) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:59:43', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:59:43')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 12:59:43) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 17:59:43', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 17:59:43')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:00:48) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:00:49) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:00:49', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:00:49')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 4, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:00:51) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create3 (for 127.0.0.1 at 2009-02-10 13:00:52) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create3
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create3]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:01:25) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:01:42) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"A Comparison", "thing1amount"=>"1", "thing2amount"=>"2", "thing3amount"=>"", "thing1"=>"Apples", "thing2"=>"Oranges", "thing3"=>"", "thing4"=>""}}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-10 18:01:42', 0, 'A Comparison', 0, 1, 2, 'Apples', 0, 'Oranges', '', '', '2009-02-10 18:01:42')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:01:53) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:01:55) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"A Comparison", "thing1amount"=>"1", "thing2amount"=>"1", "thing3amount"=>"", "thing1"=>"Apples", "thing2"=>"Oranges", "thing3"=>"", "thing4"=>""}}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-10 18:01:55', 0, 'A Comparison', 0, 1, 1, 'Apples', 0, 'Oranges', '', '', '2009-02-10 18:01:55')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:02:03) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:02:13) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 115ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:02:14) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.5ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:02:14', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:02:14')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 3, DB: 1) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:02:15) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:02:16) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:02:17) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:02:17) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:02:18) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create3 (for 127.0.0.1 at 2009-02-10 13:02:18) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create3
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create3]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:02:20) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:02:21', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:02:21')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create3 (for 127.0.0.1 at 2009-02-10 13:02:24) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create3
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create3]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:02:26) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:02:26', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:02:26')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:02:28) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:02:28', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:02:28')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create3 (for 127.0.0.1 at 2009-02-10 13:02:29) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create3
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create3]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:02:32) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:03:37) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:03:40) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:03:40', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:03:40')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:03:42) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create3 (for 127.0.0.1 at 2009-02-10 13:03:43) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create3
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create3]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:03:46) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:03:47) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:03:48) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:03:48', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:03:48')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:03:49) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (141.2ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:03:49', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:03:49')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 159ms (View: 3, DB: 141) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:03:50) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:03:50) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:03:51) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:03:53) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:03:53', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:03:53')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 14ms (View: 2, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:03:54) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:03:54', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:03:54')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:03:55) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:03:55', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:03:55')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:03:57) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:03:58) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:04:19) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"Chip Deliciousness", "thing1amount"=>"100", "thing2amount"=>"30", "thing3amount"=>"", "thing1"=>"Plain Chips", "thing2"=>"Sauced Chips", "thing3"=>"", "thing4"=>""}}
+  [4;36;1mChart Create (0.5ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-10 18:04:19', 0, 'Chip Deliciousness', 0, 100, 30, 'Plain Chips', 0, 'Sauced Chips', '', '', '2009-02-10 18:04:19')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 112ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:04:44) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.3ms)
+Completed in 19ms (View: 12, DB: 0) | 200 OK [http://localhost/]
