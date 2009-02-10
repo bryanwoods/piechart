@@ -1,4 +1,6 @@
 class ChartsController < ApplicationController
+  before_filter :authenticate, :only => [:index, :edit, :update, :destroy]
+  
   # GET /charts
   # GET /charts.xml
   def index
@@ -81,6 +83,14 @@ class ChartsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to(charts_url) }
       format.xml  { head :ok }
+    end
+  end
+  
+  protected
+
+  def authenticate
+    authenticate_or_request_with_http_basic do |username, password|
+      username == "zodiac" && password == "killer"
     end
   end
 end
