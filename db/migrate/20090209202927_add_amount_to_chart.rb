@@ -1,10 +1,10 @@
 class AddAmountToChart < ActiveRecord::Migration
   def self.up
-    add_column :charts, :thing1amount, :string
-    add_column :charts, :thing2amount, :string
-    add_column :charts, :thing3amount, :string
-    add_column :charts, :thing4amount, :string
-    add_column :charts, :thing5amount, :string
+    add_column :charts, :thing1amount, :integer
+    add_column :charts, :thing2amount, :integer
+    add_column :charts, :thing3amount, :integer
+    add_column :charts, :thing4amount, :integer
+    add_column :charts, :thing5amount, :integer
   end
 
   def self.down

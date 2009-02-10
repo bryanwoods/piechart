@@ -20,11 +20,11 @@ ActiveRecord::Schema.define(:version => 20090209215602) do
     t.string   "thing5"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "thing1amount"
-    t.string   "thing2amount"
-    t.string   "thing3amount"
-    t.string   "thing4amount"
-    t.string   "thing5amount"
+    t.integer  "thing1amount"
+    t.integer  "thing2amount"
+    t.integer  "thing3amount"
+    t.integer  "thing4amount"
+    t.integer  "thing5amount"
   end
 
   create_table "things", :force => true do |t|
