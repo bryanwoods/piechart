@@ -1,5 +1,4 @@
-<h1>MAKE A FUCKIN' PIE CHART</h1>
-
+<h1><%= link_to "MAKE A F***IN' PIE CHART", root_path %></h1>
 
 <% form_remote_for :chart, :url => charts_path, :html => { :id => 'chart_form' },	
 	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
@@ -49,7 +48,7 @@
   </p>
 	</div>
   <p>
-    <%= f.submit "MAKE A FUCKIN' PIE CHART" %><%= image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' %>
+    <%= f.submit "MAKE A F***IN' PIE CHART" %><%= image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' %>
   </p>
 <% end %>
 

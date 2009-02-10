@@ -16373,3 +16373,820 @@ Rendering template within layouts/charts
 Rendering charts/new
 Rendered charts/_thing (0.2ms)
 Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#index (for 127.0.0.1 at 2009-02-10 13:12:40) [GET]
+  [4;36;1mChart Load (15.5ms)[0m   [0;1mSELECT * FROM "charts" [0m
+Rendering template within layouts/charts
+Rendering charts/index
+Completed in 133ms (View: 105, DB: 15) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:13:19) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 107ms (View: 101, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:16:52) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"A Comparison", "thing1amount"=>"1000", "thing2amount"=>"1000", "thing3amount"=>"", "thing1"=>"Apples", "thing2"=>"Oranges", "thing3"=>"", "thing4"=>""}}
+  [4;35;1mChart Create (0.5ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-10 18:16:52', 0, 'A Comparison', 0, 1000, 1000, 'Apples', 0, 'Oranges', '', '', '2009-02-10 18:16:52')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 4, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:18:07) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"A Comparison", "thing1amount"=>"1000", "thing2amount"=>"1000", "thing3amount"=>"1000", "thing1"=>"Peach", "thing2"=>"Plumb", "thing3"=>"Pear", "thing4"=>""}}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-10 18:18:07', 0, 'A Comparison', 0, 1000, 1000, 'Peach', 1000, 'Plumb', 'Pear', '', '2009-02-10 18:18:07')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 2, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:18:13) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:18:13', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:18:13')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create2 (for 127.0.0.1 at 2009-02-10 13:18:15) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create2
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create2]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:18:21) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2", "chart"=>{"thing5"=>"", "thing4amount"=>"2", "thing5amount"=>"", "title"=>"A Comparison", "thing1amount"=>"1000", "thing2amount"=>"1000", "thing3amount"=>"1000", "thing1"=>"Peach", "thing2"=>"Plumb", "thing3"=>"Pear", "thing4"=>"Berries"}}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-10 18:18:21', 2, 'A Comparison', 0, 1000, 1000, 'Peach', 1000, 'Plumb', 'Pear', 'Berries', '2009-02-10 18:18:21')[0m
+Rendering charts/create
+Rendered charts/_thing (0.2ms)
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create3 (for 127.0.0.1 at 2009-02-10 13:18:34) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+Rendering charts/create3
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/charts/create3]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:19:17) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+ERROR: compiling _run_erb_app47views47charts47new46html46erb RAISED compile error
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:1: syntax error, unexpected tCONSTANT, expecting ')'
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>"; @output_buffer.concat(( link_to 'MAKE A F***IN' PIE CHART', root_path ).to_s); @output_buffer.concat "</h1>\n"
+                                                                                                                                                                               ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting ')'
+ form_remote_for :chart, :url => charts_path, :html => { :id => 'chart_form' },	
+                                                                           ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
+	                                    ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
+	                                                            ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                        ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                      ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                                     ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                                                    ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                                                                            ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:23: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create' } ).to_s); @output_buffer.concat "\n"
+                                                                                                                        ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create2' } ).to_s); @output_buffer.concat "\n"
+                                                                                                                         ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create3' } ).to_s); @output_buffer.concat "\n"
+                                                                                                                         ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:52: syntax error, unexpected tCONSTANT, expecting ')'
+@output_buffer.concat "    "; @output_buffer.concat(( f.submit "MAKE A FUCKIN' PIE CHART" ).to_s); @output_buffer.concat(( image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' ).to_s); @output_buffer.concat "\n"
+                                                                                  ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:52: syntax error, unexpected $undefined, expecting ')'
+@output_buffer.concat "    "; @output_buffer.concat(( f.submit "MAKE A FUCKIN' PIE CHART" ).to_s); @output_buffer.concat(( image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' ).to_s); @output_buffer.concat "\n"
+                                                                                                                                                                                                                                ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: unknown regexp options - dv
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: syntax error, unexpected $undefined
+@output_buffer.concat "</div>\n"
+                              ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: unterminated string meets end of file
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: syntax error, unexpected $end, expecting ')'
+Function body:           def _run_erb_app47views47charts47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>"; @output_buffer.concat(( link_to 'MAKE A F***IN' PIE CHART', root_path ).to_s); @output_buffer.concat "</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+ form_remote_for :chart, :url => charts_path, :html => { :id => 'chart_form' },	
+	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :chart_title ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :title ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :thing_to_chart ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :thing1 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.label :how_many? ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.text_field :thing1amount ).to_s); @output_buffer.concat " \n"
+@output_buffer.concat "  </p>\t\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :another_thing_to_chart ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :thing2 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.label :how_many? ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.text_field :thing2amount ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create' } ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    <div id=\"thingsmore\" style=\"display:none\">\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :another_thing_to_chart ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :thing3 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.label :how_many? ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.text_field :thing3amount ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create2' } ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "    </div>\n"
+@output_buffer.concat "    <div id=\"thingsmore2\" style=\"display:none\">\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :another_thing_to_chart ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :thing4 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.label :how_many? ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.text_field :thing4amount ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create3' } ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "   </div>\n"
+@output_buffer.concat "\t<div id=\"thingsmore3\" style=\"display:none\">\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :another_thing_to_chart ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :thing5 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.label :how_many? ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.text_field :thing5amount ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.submit "MAKE A FUCKIN' PIE CHART" ).to_s); @output_buffer.concat(( image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+ end ; @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"thing\" style=\"display:none\">\n"
+@output_buffer.concat(( render :partial => 'thing' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</div>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:66:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:64:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:64:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:26:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/bryanwoods4e/Desktop/piechart/app/controllers/charts_controller.rb:29:in `new'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+/Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+/Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+
+ActionView::TemplateError (compile error
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:1: syntax error, unexpected tCONSTANT, expecting ')'
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>"; @output_buffer.concat(( link_to 'MAKE A F***IN' PIE CHART', root_path ).to_s); @output_buffer.concat "</h1>\n"
+                                                                                                                                                                               ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting ')'
+ form_remote_for :chart, :url => charts_path, :html => { :id => 'chart_form' },	
+                                                                           ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
+	                                    ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
+	                                                            ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                        ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                      ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                                     ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                                                    ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                                                                            ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:23: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create' } ).to_s); @output_buffer.concat "\n"
+                                                                                                                        ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create2' } ).to_s); @output_buffer.concat "\n"
+                                                                                                                         ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create3' } ).to_s); @output_buffer.concat "\n"
+                                                                                                                         ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:52: syntax error, unexpected tCONSTANT, expecting ')'
+@output_buffer.concat "    "; @output_buffer.concat(( f.submit "MAKE A FUCKIN' PIE CHART" ).to_s); @output_buffer.concat(( image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' ).to_s); @output_buffer.concat "\n"
+                                                                                  ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:52: syntax error, unexpected $undefined, expecting ')'
+@output_buffer.concat "    "; @output_buffer.concat(( f.submit "MAKE A FUCKIN' PIE CHART" ).to_s); @output_buffer.concat(( image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' ).to_s); @output_buffer.concat "\n"
+                                                                                                                                                                                                                                ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: unknown regexp options - dv
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: syntax error, unexpected $undefined
+@output_buffer.concat "</div>\n"
+                              ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: unterminated string meets end of file
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: syntax error, unexpected $end, expecting ')') on line #1 of app/views/charts/new.html.erb:
+1: <h1><%= link_to 'MAKE A F***IN' PIE CHART', root_path %></h1>
+2: 
+3: 
+4: <% form_remote_for :chart, :url => charts_path, :html => { :id => 'chart_form' },	
+
+    app/views/charts/new.html.erb:58:in `compile!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:66:in `compile'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:64:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:64:in `compile'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:26:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/charts_controller.rb:29:in `new'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (134.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (1.1ms)
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:19:21) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+ERROR: compiling _run_erb_app47views47charts47new46html46erb RAISED compile error
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:1: syntax error, unexpected tCONSTANT, expecting ')'
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>"; @output_buffer.concat(( link_to 'MAKE A F***IN' PIE CHART', root_path ).to_s); @output_buffer.concat "</h1>\n"
+                                                                                                                                                                               ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting ')'
+ form_remote_for :chart, :url => charts_path, :html => { :id => 'chart_form' },	
+                                                                           ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
+	                                    ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
+	                                                            ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                        ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                      ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                                     ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                                                    ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                                                                            ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:23: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create' } ).to_s); @output_buffer.concat "\n"
+                                                                                                                        ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create2' } ).to_s); @output_buffer.concat "\n"
+                                                                                                                         ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create3' } ).to_s); @output_buffer.concat "\n"
+                                                                                                                         ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:52: syntax error, unexpected tCONSTANT, expecting ')'
+@output_buffer.concat "    "; @output_buffer.concat(( f.submit "MAKE A FUCKIN' PIE CHART" ).to_s); @output_buffer.concat(( image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' ).to_s); @output_buffer.concat "\n"
+                                                                                  ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:52: syntax error, unexpected $undefined, expecting ')'
+@output_buffer.concat "    "; @output_buffer.concat(( f.submit "MAKE A FUCKIN' PIE CHART" ).to_s); @output_buffer.concat(( image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' ).to_s); @output_buffer.concat "\n"
+                                                                                                                                                                                                                                ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: unknown regexp options - dv
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: syntax error, unexpected $undefined
+@output_buffer.concat "</div>\n"
+                              ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: unterminated string meets end of file
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: syntax error, unexpected $end, expecting ')'
+Function body:           def _run_erb_app47views47charts47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>"; @output_buffer.concat(( link_to 'MAKE A F***IN' PIE CHART', root_path ).to_s); @output_buffer.concat "</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+ form_remote_for :chart, :url => charts_path, :html => { :id => 'chart_form' },	
+	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :chart_title ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :title ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :thing_to_chart ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :thing1 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.label :how_many? ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.text_field :thing1amount ).to_s); @output_buffer.concat " \n"
+@output_buffer.concat "  </p>\t\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :another_thing_to_chart ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :thing2 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.label :how_many? ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.text_field :thing2amount ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create' } ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    <div id=\"thingsmore\" style=\"display:none\">\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :another_thing_to_chart ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :thing3 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.label :how_many? ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.text_field :thing3amount ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create2' } ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "    </div>\n"
+@output_buffer.concat "    <div id=\"thingsmore2\" style=\"display:none\">\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :another_thing_to_chart ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :thing4 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.label :how_many? ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.text_field :thing4amount ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create3' } ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "   </div>\n"
+@output_buffer.concat "\t<div id=\"thingsmore3\" style=\"display:none\">\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.label :another_thing_to_chart ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.text_field :thing5 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.label :how_many? ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t"; @output_buffer.concat(( f.text_field :thing5amount ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+@output_buffer.concat "\t</div>\n"
+@output_buffer.concat "  <p>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( f.submit "MAKE A FUCKIN' PIE CHART" ).to_s); @output_buffer.concat(( image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </p>\n"
+ end ; @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"thing\" style=\"display:none\">\n"
+@output_buffer.concat(( render :partial => 'thing' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</div>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:66:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:64:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:64:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:26:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/bryanwoods4e/Desktop/piechart/app/controllers/charts_controller.rb:29:in `new'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+/Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+/Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+
+ActionView::TemplateError (compile error
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:1: syntax error, unexpected tCONSTANT, expecting ')'
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>"; @output_buffer.concat(( link_to 'MAKE A F***IN' PIE CHART', root_path ).to_s); @output_buffer.concat "</h1>\n"
+                                                                                                                                                                               ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:4: syntax error, unexpected tIDENTIFIER, expecting ')'
+ form_remote_for :chart, :url => charts_path, :html => { :id => 'chart_form' },	
+                                                                           ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
+	                                    ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
+	                                                            ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                        ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                      ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                                     ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                                                    ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| ; @output_buffer.concat "\n"
+                                                                                                            ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:23: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create' } ).to_s); @output_buffer.concat "\n"
+                                                                                                                        ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:31: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create2' } ).to_s); @output_buffer.concat "\n"
+                                                                                                                         ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:40: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "\t"; @output_buffer.concat(( link_to_remote "Toggle another thing?", :url => { :action => 'create3' } ).to_s); @output_buffer.concat "\n"
+                                                                                                                         ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:52: syntax error, unexpected tCONSTANT, expecting ')'
+@output_buffer.concat "    "; @output_buffer.concat(( f.submit "MAKE A FUCKIN' PIE CHART" ).to_s); @output_buffer.concat(( image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' ).to_s); @output_buffer.concat "\n"
+                                                                                  ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:52: syntax error, unexpected $undefined, expecting ')'
+@output_buffer.concat "    "; @output_buffer.concat(( f.submit "MAKE A FUCKIN' PIE CHART" ).to_s); @output_buffer.concat(( image_tag 'spinner.gif', :id => 'spinner', :style => 'display:none' ).to_s); @output_buffer.concat "\n"
+                                                                                                                                                                                                                                ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: unknown regexp options - dv
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: syntax error, unexpected $undefined
+@output_buffer.concat "</div>\n"
+                              ^
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: unterminated string meets end of file
+/Users/bryanwoods4e/Desktop/piechart/app/views/charts/new.html.erb:58: syntax error, unexpected $end, expecting ')') on line #1 of app/views/charts/new.html.erb:
+1: <h1><%= link_to 'MAKE A F***IN' PIE CHART', root_path %></h1>
+2: 
+3: 
+4: <% form_remote_for :chart, :url => charts_path, :html => { :id => 'chart_form' },	
+
+    app/views/charts/new.html.erb:58:in `compile!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:66:in `compile'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:64:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:64:in `compile'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:26:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:905:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:135:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:164:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:158:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/charts_controller.rb:29:in `new'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (40.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.8ms)
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:20:19) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:20:20) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:20:23) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (23.3ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:20:23', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:20:23')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 40ms (View: 3, DB: 23) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:20:24) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:20:24', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:20:24')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:20:25) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:20:25', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:20:25')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:20:26) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.4ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:20:26', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:20:26')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:20:28) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:20:29) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:20:46) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:21:00) [POST]
+  Parameters: {"commit"=>"MAKE A F***IN' PIE CHART", "authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"Comparison", "thing1amount"=>"5", "thing2amount"=>"5", "thing3amount"=>"", "thing1"=>"Apples", "thing2"=>"Oranges", "thing3"=>"", "thing4"=>""}}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-10 18:21:00', 0, 'Comparison', 0, 5, 5, 'Apples', 0, 'Oranges', '', '', '2009-02-10 18:21:00')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:21:06) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:21:08) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
