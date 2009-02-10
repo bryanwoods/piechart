@@ -1,1 +1,0 @@
-require 'chart_fu/backends/flot/line_chart'
