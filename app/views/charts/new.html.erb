@@ -3,7 +3,7 @@
 
 <% form_remote_for :chart, :url => charts_path, :html => { :id => 'chart_form' },	
 	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
-    :success  => %(Element.hide('spinner'), (Element.show('thing'))) do |f| %>
+    :success  => %(Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))) do |f| %>
 
   <p>
     <%= f.label :chart_title %><br />

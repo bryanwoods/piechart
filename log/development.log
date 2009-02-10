@@ -15950,3 +15950,26 @@ Rendering template within layouts/charts
 Rendering charts/new
 Rendered charts/_thing (0.3ms)
 Completed in 19ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:06:33) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 22ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:06:44) [POST]
+  Parameters: {"authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2"}
+  [4;36;1mChart Create (0.5ms)[0m   [0;1mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES(NULL, '2009-02-10 18:06:44', 0, NULL, 0, 0, 0, NULL, 0, NULL, NULL, NULL, '2009-02-10 18:06:44')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-10 13:06:51) [POST]
+  Parameters: {"commit"=>"MAKE A FUCKIN' PIE CHART", "authenticity_token"=>"57fd971bde021c82441ef4bc88824a9beab6bcd2", "chart"=>{"thing5"=>"", "thing4amount"=>"", "thing5amount"=>"", "title"=>"Chips", "thing1amount"=>"100", "thing2amount"=>"1", "thing3amount"=>"2", "thing1"=>"Delicious", "thing2"=>"Not Delicious", "thing3"=>"Kind of Delicious", "thing4"=>""}}
+  [4;35;1mChart Create (0.4ms)[0m   [0mINSERT INTO "charts" ("thing5", "updated_at", "thing4amount", "title", "thing5amount", "thing1amount", "thing2amount", "thing1", "thing3amount", "thing2", "thing3", "thing4", "created_at") VALUES('', '2009-02-10 18:06:51', 0, 'Chips', 0, 100, 1, 'Delicious', 2, 'Not Delicious', 'Kind of Delicious', '', '2009-02-10 18:06:51')[0m
+Rendering charts/create
+Rendered charts/_thing (0.3ms)
+Completed in 17ms (View: 3, DB: 0) | 200 OK [http://localhost/charts]
