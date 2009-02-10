@@ -1,2 +1,2 @@
 page.insert_html :top, :thing, :partial => 'thing', :object => @chart
-page.toggle :thingsmore
+page[:thingsmore].toggle

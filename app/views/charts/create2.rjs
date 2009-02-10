@@ -1,1 +1,1 @@
-page.toggle :thingsmore2
+page[:thingsmore2].toggle
