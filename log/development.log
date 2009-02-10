@@ -17190,3 +17190,10 @@ Rendering template within layouts/charts
 Rendering charts/new
 Rendered charts/_thing (0.2ms)
 Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-10 13:21:51) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Rendered charts/_thing (0.2ms)
+Completed in 19ms (View: 13, DB: 0) | 200 OK [http://localhost/]
