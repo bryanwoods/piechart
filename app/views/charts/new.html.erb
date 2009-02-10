@@ -2,8 +2,8 @@
 
 
 <% form_remote_for :chart, :url => charts_path, :html => { :id => 'chart_form' },	
-	:before   => %(Element.show('spinner')),
-    :success  => %(Element.hide('spinner')) do |f| %>
+	:before   => %(Element.show('spinner'), (Element.hide('thing'))),
+    :success  => %(Element.hide('spinner'), (Element.show('thing'))) do |f| %>
 
   <p>
     <%= f.label :chart_title %><br />
@@ -44,6 +44,6 @@
   </p>
 <% end %>
 
-<div id="thing">
+<div id="thing" style="display:none">
 <%= render :partial => 'thing' %>
 </div>
