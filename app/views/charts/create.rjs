@@ -1,2 +1,3 @@
 page.insert_html :top, :thing, :partial => 'thing', :object => @chart
 page[:thingsmore].toggle
+page[:thingsmore].visual_effect :highlight

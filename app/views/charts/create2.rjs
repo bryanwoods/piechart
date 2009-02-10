@@ -1,1 +1,2 @@
 page[:thingsmore2].toggle
+page[:thingsmore2].visual_effect :highlight
