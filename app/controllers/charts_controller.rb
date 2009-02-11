@@ -1,6 +1,6 @@
 class ChartsController < ApplicationController
   caches_page :new
-  before_filter :authenticate, :only => [:index, :edit, :update, :destroy]
+  # before_filter :authenticate, :only => [:index, :edit, :update, :destroy]
   
   # GET /charts
   # GET /charts.xml
@@ -64,7 +64,6 @@ class ChartsController < ApplicationController
 
     respond_to do |format|
       if @chart.update_attributes(params[:chart])
-        flash[:notice] = 'Chart was successfully updated.'
         format.html { redirect_to(@chart) }
         format.xml  { head :ok }
       else

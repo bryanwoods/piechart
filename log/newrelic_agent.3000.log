@@ -46,3 +46,38 @@
 [02/11/09 15:58:45 (3738)] INFO : Transaction tracing is enabled in agent config
 [02/11/09 15:58:45 (3738)] INFO : New Relic RPM Agent 2.8.2 Initialized: pid = 3738
 [02/11/09 15:58:45 (3738)] INFO : Agent Log is found in /Users/bryanwoods4e/Desktop/piechart2/log/newrelic_agent.3000.log
+[02/11/09 16:02:41 (3792)] INFO : Runtime environment: webrick
+[02/11/09 16:02:41 (3792)] INFO : Error collector is enabled in agent config
+[02/11/09 16:02:41 (3792)] INFO : Transaction tracing is enabled in agent config
+[02/11/09 16:02:41 (3792)] INFO : New Relic RPM Agent 2.8.2 Initialized: pid = 3792
+[02/11/09 16:02:41 (3792)] INFO : Agent Log is found in /Users/bryanwoods4e/Desktop/piechart2/log/newrelic_agent.3000.log
+[02/11/09 16:25:55 (4084)] INFO : Runtime environment: webrick
+[02/11/09 16:25:55 (4084)] INFO : Error collector is enabled in agent config
+[02/11/09 16:25:55 (4084)] INFO : Transaction tracing is enabled in agent config
+[02/11/09 16:25:56 (4084)] INFO : New Relic RPM Agent 2.8.2 Initialized: pid = 4084
+[02/11/09 16:25:56 (4084)] INFO : Agent Log is found in /Users/bryanwoods4e/Desktop/piechart3/log/newrelic_agent.3000.log
+[02/11/09 16:27:25 (4105)] INFO : Runtime environment: webrick
+[02/11/09 16:27:25 (4105)] INFO : Error collector is enabled in agent config
+[02/11/09 16:27:25 (4105)] INFO : Transaction tracing is enabled in agent config
+[02/11/09 16:27:26 (4105)] INFO : New Relic RPM Agent 2.8.2 Initialized: pid = 4105
+[02/11/09 16:27:26 (4105)] INFO : Agent Log is found in /Users/bryanwoods4e/Desktop/piechart3/log/newrelic_agent.3000.log
+[02/11/09 16:28:19 (4118)] INFO : Runtime environment: webrick
+[02/11/09 16:28:19 (4118)] INFO : Error collector is enabled in agent config
+[02/11/09 16:28:19 (4118)] INFO : Transaction tracing is enabled in agent config
+[02/11/09 16:28:19 (4118)] INFO : New Relic RPM Agent 2.8.2 Initialized: pid = 4118
+[02/11/09 16:28:19 (4118)] INFO : Agent Log is found in /Users/bryanwoods4e/Desktop/piechart3/log/newrelic_agent.3000.log
+[02/11/09 16:29:40 (4136)] INFO : Runtime environment: webrick
+[02/11/09 16:29:40 (4136)] INFO : Error collector is enabled in agent config
+[02/11/09 16:29:40 (4136)] INFO : Transaction tracing is enabled in agent config
+[02/11/09 16:29:40 (4136)] INFO : New Relic RPM Agent 2.8.2 Initialized: pid = 4136
+[02/11/09 16:29:40 (4136)] INFO : Agent Log is found in /Users/bryanwoods4e/Desktop/piechart3/log/newrelic_agent.3000.log
+[02/11/09 16:33:48 (4190)] INFO : Runtime environment: webrick
+[02/11/09 16:33:48 (4190)] INFO : Error collector is enabled in agent config
+[02/11/09 16:33:48 (4190)] INFO : Transaction tracing is enabled in agent config
+[02/11/09 16:33:48 (4190)] INFO : New Relic RPM Agent 2.8.2 Initialized: pid = 4190
+[02/11/09 16:33:48 (4190)] INFO : Agent Log is found in /Users/bryanwoods4e/Desktop/piechart3/log/newrelic_agent.3000.log
+[02/11/09 16:35:47 (4215)] INFO : Runtime environment: webrick
+[02/11/09 16:35:47 (4215)] INFO : Error collector is enabled in agent config
+[02/11/09 16:35:47 (4215)] INFO : Transaction tracing is enabled in agent config
+[02/11/09 16:35:47 (4215)] INFO : New Relic RPM Agent 2.8.2 Initialized: pid = 4215
+[02/11/09 16:35:47 (4215)] INFO : Agent Log is found in /Users/bryanwoods4e/Desktop/piechart3/log/newrelic_agent.3000.log

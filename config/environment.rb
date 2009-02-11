@@ -31,9 +31,9 @@ Rails::Initializer.run do |config|
   # Activate observers that should always be running
   # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
   config.action_controller.session = {
-    :session_key => '_piechart_session',
-    :secret      => '0ddf61513bb6eac429f42aa2e0cdba6627ff82b2c80a0926431fea4b9557c45e0a4ee6012aa55fd3754c06aac6d6801ab59b90ef9bbd16bc5a75d3171309fd49'
-  }
+     :session_key => '_piechart3_session',
+     :secret      => '0ddf23dw461513bb6eac429f42aa2e0cdba6627ff82b2c80a0926431fea4b9557c45e0a4ee6012aa55fd3754c06aac6d6801ab59b90ef9bbd16bc5a75d3171309fd49'
+   }
 
   # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
   # Run "rake -D time" for a list of tasks for finding time zone names.
