@@ -1,4 +1,5 @@
 class ChartsController < ApplicationController
+  caches_page :new
   before_filter :authenticate, :only => [:index, :edit, :update, :destroy]
   
   # GET /charts
@@ -46,7 +47,6 @@ class ChartsController < ApplicationController
 
     respond_to do |format|
       if @chart.save
-        flash[:notice] = 'Chart was successfully created.'
         format.html { redirect_to(@chart) }
         format.js
         format.xml  { render :xml => @chart, :status => :created, :location => @chart }

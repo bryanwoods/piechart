@@ -5,14 +5,27 @@
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title>MAKE A F***IN' PIE CHART</title>
-  <%= javascript_include_tag :defaults %>
-  <%= stylesheet_link_tag 'scaffold' %>
+  <%= javascript_include_merged :base, :cache => true %>
+  <%= stylesheet_link_merged :base, :cache => true %>
 </head>
 <body>
-
-<p style="color: orange"><%= flash[:notice] %></p>
-
+<!-- 
+	 _   _   ___  _____ _       _____  ___ _____ ___   _   _ 
+	| | | | / _ \|_   _| |     /  ___|/ _ \_   _/ _ \ | \ | |
+	| |_| |/ /_\ \ | | | |     \ `--./ /_\ \| |/ /_\ \|  \| |
+	|  _  ||  _  | | | | |      `--. \  _  || ||  _  || . ` |
+	| | | || | | |_| |_| |____ /\__/ / | | || || | | || |\  |
+	\_| |_/\_| |_/\___/\_____/ \____/\_| |_/\_/\_| |_/\_| \_/	
+-->
 <%= yield  %>
-
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3114392-11");
+pageTracker._trackPageview();
+} catch(err) {}</script>
 </body>
 </html>

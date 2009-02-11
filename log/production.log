@@ -1,0 +1,12 @@
+
+
+Processing ChartsController#new (for 127.0.0.1 at 2009-02-11 15:24:37) [GET]
+Rendering template within layouts/charts
+Rendering charts/new
+Completed in 50ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ChartsController#create (for 127.0.0.1 at 2009-02-11 15:24:49) [POST]
+  Parameters: {"authenticity_token"=>"3e21197e330ccf193f01ce41623c10f916ad46cd"}
+Rendering charts/create
+Completed in 41ms (View: 2, DB: 1) | 200 OK [http://localhost/charts]

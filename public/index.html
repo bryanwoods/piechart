@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>MAKE A F***IN' PIE CHART</title>
+  <script src="/javascripts/all.js?1234383686" type="text/javascript"></script>
+<script src="/javascripts/all.js?1234383686" type="text/javascript"></script>
+<script src="/javascripts/all.js?1234383686" type="text/javascript"></script>
+<script src="/javascripts/all.js?1234383686" type="text/javascript"></script>
+<script src="/javascripts/all.js?1234383686" type="text/javascript"></script>
+  <link href="/stylesheets/all.css?1234383686" media="screen" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!-- 
+	 _   _   ___  _____ _       _____  ___ _____ ___   _   _ 
+	| | | | / _ \|_   _| |     /  ___|/ _ \_   _/ _ \ | \ | |
+	| |_| |/ /_\ \ | | | |     \ `--./ /_\ \| |/ /_\ \|  \| |
+	|  _  ||  _  | | | | |      `--. \  _  || ||  _  || . ` |
+	| | | || | | |_| |_| |____ /\__/ / | | || || | | || |\  |
+	\_| |_/\_| |_/\___/\_____/ \____/\_| |_/\_/\_| |_/\_| \_/	
+-->
+<p style="color: orange">Chart was successfully created.</p>
+<h1><a href="/">MAKE A F***IN' PIE CHART</a></h1>
+
+<form action="/charts" id="chart_form" method="post" onsubmit="Element.show('spinner'), (Element.hide('thing')); new Ajax.Request('/charts', {asynchronous:true, evalScripts:true, onSuccess:function(request){Element.hide('spinner', 'thingsmore', 'thingsmore2', 'thingsmore3'), (Element.show('thing'))}, parameters:Form.serialize(this)}); return false;"><div style="margin:0;padding:0"><input name="authenticity_token" type="hidden" value="3e21197e330ccf193f01ce41623c10f916ad46cd" /></div>
+
+  <p>
+    <label for="chart_chart_title">Chart title</label><br />
+    <input id="chart_title" name="chart[title]" size="30" type="text" />
+  </p>
+  <p>
+    <label for="chart_thing_to_chart">Thing to chart</label><br />
+    <input id="chart_thing1" name="chart[thing1]" size="30" type="text" />
+	<label for="chart_how_many">How many?</label>
+	<input id="chart_thing1amount" name="chart[thing1amount]" size="30" type="text" /> 
+  </p>	
+  <p>
+    <label for="chart_another_thing_to_chart">Another thing to chart</label><br />
+    <input id="chart_thing2" name="chart[thing2]" size="30" type="text" />
+	<label for="chart_how_many">How many?</label>
+	<input id="chart_thing2amount" name="chart[thing2amount]" size="30" type="text" />
+	<a href="#" onclick="new Ajax.Request('/charts', {asynchronous:true, evalScripts:true, parameters:'authenticity_token=' + encodeURIComponent('3e21197e330ccf193f01ce41623c10f916ad46cd')}); return false;">Toggle another thing?</a>
+  </p>
+  <p>
+    <div id="thingsmore" style="display:none">
+    <label for="chart_another_thing_to_chart">Another thing to chart</label><br />
+    <input id="chart_thing3" name="chart[thing3]" size="30" type="text" />
+	<label for="chart_how_many">How many?</label>
+	<input id="chart_thing3amount" name="chart[thing3amount]" size="30" type="text" />
+	<a href="#" onclick="new Ajax.Request('/charts/create2', {asynchronous:true, evalScripts:true, parameters:'authenticity_token=' + encodeURIComponent('3e21197e330ccf193f01ce41623c10f916ad46cd')}); return false;">Toggle another thing?</a>
+  </p>
+    </div>
+    <div id="thingsmore2" style="display:none">
+  <p>
+    <label for="chart_another_thing_to_chart">Another thing to chart</label><br />
+    <input id="chart_thing4" name="chart[thing4]" size="30" type="text" />
+	<label for="chart_how_many">How many?</label>
+	<input id="chart_thing4amount" name="chart[thing4amount]" size="30" type="text" />
+	<a href="#" onclick="new Ajax.Request('/charts/create3', {asynchronous:true, evalScripts:true, parameters:'authenticity_token=' + encodeURIComponent('3e21197e330ccf193f01ce41623c10f916ad46cd')}); return false;">Toggle another thing?</a>
+  </p>
+   </div>
+	<div id="thingsmore3" style="display:none">
+  <p>
+    <label for="chart_another_thing_to_chart">Another thing to chart</label><br />
+    <input id="chart_thing5" name="chart[thing5]" size="30" type="text" />
+	<label for="chart_how_many">How many?</label>
+	<input id="chart_thing5amount" name="chart[thing5amount]" size="30" type="text" />
+  </p>
+	</div>
+  <p>
+    <input id="chart_submit" name="commit" type="submit" value="MAKE A F***IN' PIE CHART" /><img alt="Spinner" id="spinner" src="/images/spinner.gif?1233091530" style="display:none" />
+  </p>
+</form>
+
+<div id="thing" style="display:none">
+<img src="http://chart.apis.google.com/chart?&chs=800x350&chd=t:,,,,&cht=p3&chtt=&chl=||||" />
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3114392-11");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
